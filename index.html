@@ -3,9 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='styles.css' >
   <script src="main.js" defer></script>
-  <title>Music Search</title>
+  
+
+  <title>🎸Music Search🎶</title>
+
 </head>
+
 <body>
+  
+<h1>Music Finder 🎹</h1>
+
+
+
+<form action='/' method='get' id='form'>
+<input type="search" id="input" placeholder="ie Paul McCartney" required/>
+<input type="submit" value="Search" />
+
+<div class = 'searchResults'>
+    <div class='musicCard'></div>
+      <div class='searchImg'></div>
+      <h2 songTitle></h2>
+      <h3 bandName></h3>
+
+
+</div>
+
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+<!-- 
+      html
+      css page(bulma)
+      link js
+      link api
+
+
+
+      link search box to api resulting in list of songs, albums, artist
+
+      no search request on no search term (example in class)
+
+      dispaly result w/o reloading page (js)
+
+      results include song details > title album, album art etc
+
+      if no artist are found w/ search result user needs to know
+
+      (look up) how to handle responses from server not in 200 range
+        
+
+      user needs to be able to preview song  (using <audio>)
+
+      good UI (bulma.io)
+        -->
