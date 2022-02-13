@@ -7,25 +7,29 @@
   <script src="main.js" defer></script>
   
 
-  <title>🎸Music Search🎶</title>
+  <title>🎸Music Figure Outer🎶</title>
 
 </head>
 
 <body>
   
-<h1>Music Finder 🎹</h1>
+<h1>Music Figure Outer 🎹</h1>
 
-
+<audio controls
+  source src='' id='audio' type='audio/mp3'>
+</audio>
 
 <form action='/' method='get' id='form'>
 <input type="search" id="input" placeholder="ie Paul McCartney" required/>
 <input type="submit" value="Search" id='searchButt'/>
 
 <div class = 'searchResults'>
-    <div class='musicCard' src=''></div>
+
+    <div class='musicCard' src='' id= 'musicCard'></div>
       <div class='searchImg'></div>
       <h2 songTitle></h2>
       <h3 bandName></h3>
+
 
 
 </div>
